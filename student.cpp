@@ -4,7 +4,8 @@
 using namespace std;
 
 Student::Student(const char * const name, int perm) {
-  this->setName("another stub");
+  this->setName(name);
+  this->setPerm(perm);
 }
 
 int Student::getPerm() const {
