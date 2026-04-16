@@ -4,6 +4,7 @@
 using namespace std;
 
 Student::Student(const char * const name, int perm) {
+  this->name = nullptr;
   this->setName(name);
   this->setPerm(perm);
 }
